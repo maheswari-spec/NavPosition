@@ -1,3 +1,4 @@
+/* body */
 body {
   margin: 0;
   padding-top: 90px;
@@ -5,6 +6,7 @@ body {
   background-color: #121212;
   color: white;
 }
+/* header */
 .navbar {
   position: fixed;
   top: 0;
@@ -44,11 +46,13 @@ justify-content: space-between;
 .navbar a:hover {
   color: #1db954;
 }
+/* logo */
 .logoo {
   font-weight: bold;
   font-size: 22px;
   color: #1db954;
 }
+/* search box */
 .search {
   width: 100%;
   max-width: 300px;
@@ -60,6 +64,7 @@ justify-content: space-between;
   color: white;
 
 }
+/* search-icon */
  .fa-search{
 
     position: absolute;
@@ -70,6 +75,7 @@ justify-content: space-between;
 .search::placeholder {
   color: #aaa;
 }
+/* signup button */
 .signupbutton {
   background-color: #1db954;
   color: white;
@@ -78,12 +84,14 @@ justify-content: space-between;
   border-radius: 20px;
   transition: background-color 0.3s;
 }
+
 .notification-icon {
   font-size: 18px;
   color: white;
   position: relative;
   cursor: pointer;
 }
+/* red dot */
 .notification-icon::after {
   content: '1';
   position: absolute;
@@ -102,6 +110,7 @@ justify-content: space-between;
   width:70px;
   padding-top: 30px;
  }
+/* position:sticky */
  .sticky-content{
   background-color:green;
   padding: 50px;
