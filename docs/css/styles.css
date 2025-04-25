@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding-top: 90px;
+  font-family: sans-serif;
+  background-color: #121212;
+  color: white;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #050505;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  z-index: 1000;
+}
+.nav-left,
+.nav-center,
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+.nav-left {
+ flex:1;
+justify-content: space-between;
+}
+.nav-center {
+  flex: 1;
+  justify-content: center;
+  position: relative;
+}
+.nav-right {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.navbar a:hover {
+  color: #1db954;
+}
+.logoo {
+  font-weight: bold;
+  font-size: 22px;
+  color: #1db954;
+}
+.search {
+  width: 100%;
+  max-width: 300px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: #282828;
+  color: white;
+
+}
+ .fa-search{
+
+    position: absolute;
+    top:1px;
+    padding: 2px;
+
+}
+.search::placeholder {
+  color: #aaa;
+}
+.signupbutton {
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+.notification-icon {
+  font-size: 18px;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+.notification-icon::after {
+  content: '1';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 50%;
+  font-size: 10px;
+  padding: 2px;
+}
+.spotify-logo {
+  height: 30px;
+  }
+
+ .section img{
+  width:70px;
+  padding-top: 30px;
+ }
+ .sticky-content{
+  background-color:green;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top:90px;
+  z-index: 5;
+
+ }
+ .content{
+  background-color:green;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+
+ }
